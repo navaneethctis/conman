@@ -1,0 +1,4 @@
+{
+  "connectionString": "mongodb+srv://navaneethctis:uQujqpyL4anUsxlU@conman-api-zr2l3.mongodb.net/<dbname>?retryWrites=true&w=majority",
+  "privateKey": "conman"
+}
