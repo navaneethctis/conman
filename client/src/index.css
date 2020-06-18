@@ -1,0 +1,63 @@
+@import url('https://rsms.me/inter/inter.css');
+html {
+  font-family: 'Inter', sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: 'Inter var', sans-serif;
+  }
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: 'Inter var', sans-serif;
+}
+
+.checkbox:hover,
+.radio:hover {
+  color: inherit;
+}
+
+.navbar-link.is-active,
+.navbar-link:focus,
+.navbar-link:focus-within,
+.navbar-link:hover,
+a.navbar-item.is-active,
+a.navbar-item:focus,
+a.navbar-item:focus-within,
+a.navbar-item:hover {
+  color: #00d1b2;
+}
+
+.field-label {
+  flex-grow: 0;
+}
+
+.field-body {
+  flex-grow: 1;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.item-enter {
+  opacity: 0;
+}
+
+.item-enter-active {
+  opacity: 1;
+  transition: opacity 250ms ease-in;
+}
+
+.item-exit {
+  opacity: 1;
+}
+
+.item-exit-active {
+  opacity: 0;
+  transition: opacity 250ms ease-in;
+}
